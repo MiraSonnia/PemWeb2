@@ -32,7 +32,7 @@
                         <td>
 <a class="btn btn-primary" href="view_produk.php?id=<?=$card['id']?>">View</a>
 <a class="btn btn-primary" href="edit.php?id=<?=$card['id']?>">Edit</a>
-<a class="btn btn-primary" href="delete_produk.php?iddel=<?=$card['id']?>"
+<a class="btn btn-primary" href="delete.php?iddel=<?=$card['id']?>"
 onclick="if(!confirm('Anda Yakin Hapus Data Produk <?=$card['nama']?>?')) {return false}"
 >Delete</a>
 </td>
